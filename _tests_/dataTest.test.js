@@ -12,7 +12,7 @@ describe('\nTests over JSON file populated from DB', () => {
   let sqlStatement = 'select * from rules_threshold limit  10'
  
   beforeAll(async () => {  
-    await prepareDataForRemoteDB('taxdoo',fileNameRelativePath, sqlStatement);
+    await prepareDataForRemoteDB('myDB',fileNameRelativePath, sqlStatement);
 
     // Read the data from the JSON file (populated by qyering the DB) and parse it
     filePath = path.join(__dirname, '../'+fileNameRelativePath);

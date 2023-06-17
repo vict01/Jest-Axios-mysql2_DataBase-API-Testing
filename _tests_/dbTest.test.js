@@ -5,7 +5,7 @@ jest.setTimeout(100000);
 
 describe('\nDirect test over database', () => {
     const validCountryCodes = inputData.validCountryCodes;
-    let dbName = 'taxdoo'
+    let dbName = 'myDB'
     let countriesTable, rules_threshold;
 
     beforeAll(async () => {
