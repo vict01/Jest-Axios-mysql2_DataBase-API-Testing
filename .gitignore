@@ -1,0 +1,8 @@
+dist
+node_modules
+.DS_Store
+data/rules_threshold.json
+_notes_.txt
+env.dev.json
+env.prod.json
+**/package-lock.json

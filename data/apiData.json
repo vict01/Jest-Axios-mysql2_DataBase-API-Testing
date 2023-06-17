@@ -1,0 +1,39 @@
+{
+    "appData": {
+        "urlApi": "https://reqres.in/api",
+        "contentTypeAppJSON": "application/json"
+    },
+    "loginData": {
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+    },
+    "userInfo": {
+        "name": "morpheus",
+        "job": "leader"
+    },
+    "HTTP_Method": {
+        "GET": "GET",
+        "POST": "POST",
+        "PUT": "PUT",
+        "PATCH": "PATCH",
+        "DELETE": "DELETE"
+    },
+    "companyData": {
+        "companyName": "Soft-Test",
+        "address": "Valentinskamp 70, 20355 Hamburg",
+        "vatId": "DE123456789",
+        "eMail": "testEmail@test.test",
+        "telephone": "+49123456789"
+    },
+    "personalData": {
+        "salutationMr": "Mr",
+        "salutationMrs": "Mrs",
+        "firstName": "Karl",
+        "lasttName": "Ludwig",
+        "userTest": "userTest",
+        "genderMale": "male",
+        "genderFemale": "female",
+        "statusActive": "active",
+        "statusInactive": "inactive"
+    }
+}
